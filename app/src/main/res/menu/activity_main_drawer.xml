@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Books" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_find_in_page_black_24dp"
+            android:title="Research Papers" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_insert_drive_file_black_24dp"
+            android:title="Syllabus" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_computer_black_24dp"
+            android:title="Seminars" />
+    </group>
+
+
+
+
+</menu>
